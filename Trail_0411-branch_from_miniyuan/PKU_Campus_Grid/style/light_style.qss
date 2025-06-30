@@ -1,0 +1,503 @@
+/* ===== 主框架样式 ===== */
+QMainWindow {
+    background: #f5f5f5;  /* 浅灰背景 */
+    font-family: "Microsoft YaHei UI", "微软雅黑", sans-serif;
+}
+
+QWidget#centralWidget {
+    background: #f5f5f5;
+    border: none;
+}
+
+/* ===== 地图控件 ===== */
+MapView {
+    background: #ffffff;  /* 白色背景 */
+    border: 1px solid #cccccc;  /* 浅灰边框 */
+    border-radius: 4px;
+}
+
+QGraphicsView {
+    background: #ffffff;  /* 白色背景 */
+    border: none;
+}
+
+/* ===== 工具栏系统 ===== */
+QToolBar {
+    background: #ffffff;  /* 白色背景 */
+    border-right: 2px solid #ffd700;  /* 金色边框 */
+    spacing: 8px;
+    padding: 15px 8px;
+    font-weight: 600;
+}
+
+QToolButton {
+    background: #ffffff;  /* 白色 */
+    border-radius: 12px;
+    padding: 12px 8px;
+    margin: 5px 0;
+    min-width: 80px;
+    min-height: 80px;
+    border: 2px solid #cccccc;  /* 浅灰边框 */
+    font-family: "Microsoft YaHei UI", "微软雅黑", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333333;  /* 深灰文字 */
+    qproperty-iconSize: 32px;
+}
+
+QToolButton:hover {
+    background: #e0e0e0;  /* 悬停浅灰 */
+    color: #333333;  /* 深灰 */
+    border: 2px solid #ffd700;
+    font-weight: 650;
+}
+
+QToolButton:pressed {
+    background: #cccccc;  /* 按压浅灰 */
+    color: #333333;
+    font-weight: 700;
+}
+
+QToolButton:checked {
+    background: #ffd700;  /* 金色选中 */
+    color: #121212;  /* 深黑文字 */
+    font-weight: 700;
+}
+
+/* ===== 菜单系统 ===== */
+QMenuBar {
+    background: #ffffff;  /* 白色背景 */
+    border-bottom: 2px solid #ffd700;  /* 金色边框 */
+    font-family: "Microsoft YaHei UI", "微软雅黑", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333333;  /* 深灰文字 */
+    padding: 5px;
+}
+
+QMenuBar::item {
+    background: transparent;
+    padding: 8px 15px;
+    margin: 2px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+QMenuBar::item:selected {
+    background: #e0e0e0;  /* 悬停浅灰 */
+    color: #333333;  /* 深灰 */
+    font-weight: 650;
+}
+
+QMenuBar::item:pressed {
+    background: #cccccc;  /* 按压浅灰 */
+    color: #333333;
+    font-weight: 700;
+}
+
+QMenu {
+    background: #ffffff;  /* 白色背景 */
+    border: 2px solid #ffd700;  /* 金色边框 */
+    border-radius: 8px;
+    padding: 5px;
+    font-family: "Microsoft YaHei UI", "微软雅黑", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: #333333;  /* 深灰文字 */
+}
+
+QMenu::item {
+    padding: 8px 25px 8px 20px;
+    margin: 2px;
+    border-radius: 5px;
+    min-width: 120px;
+    font-weight: 600;
+}
+
+QMenu::item:selected {
+    background: #e0e0e0;  /* 悬停浅灰 */
+    color: #333333;  /* 深灰 */
+    font-weight: 650;
+}
+
+QMenu::item:pressed {
+    background: #cccccc;  /* 按压浅灰 */
+    color: #333333;
+    font-weight: 700;
+}
+
+QMenu::separator {
+    height: 1px;
+    background: #ffd700;  /* 金色分隔线 */
+    margin: 5px 10px;
+}
+
+/* ===== 按钮系统 ===== */
+QPushButton {
+    background: #ffffff;  /* 白色背景 */
+    border: 2px solid #cccccc;  /* 浅灰边框 */
+    border-radius: 8px;
+    padding: 6px 12px;
+    color: #333333;  /* 深灰文字 */
+    font-family: "Microsoft YaHei UI", "微软雅黑", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+QPushButton:hover {
+    background: #e0e0e0;  /* 悬停浅灰 */
+    color: #333333;  /* 深灰 */
+    font-weight: 650;
+}
+
+QPushButton:pressed {
+    background: #cccccc;  /* 按压浅灰 */
+    color: #333333;
+    font-weight: 700;
+}
+
+QPushButton:disabled {
+    background: #f5f5f5;  /* 浅灰背景 */
+    color: #999999;  /* 浅灰文字 */
+    border-color: #cccccc;
+}
+
+/* ===== 输入控件 ===== */
+QLineEdit, QTextEdit, QPlainTextEdit {
+    background: #ffffff;  /* 白色背景 */
+    border: 2px solid #cccccc;  /* 浅灰边框 */
+    border-radius: 8px;
+    padding: 5px;
+    color: #333333;  /* 深灰文字 */
+    font-family: "Microsoft YaHei UI", "微软雅黑", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    selection-background-color: #cccccc;  /* 浅灰选中背景 */
+}
+
+QLineEdit:focus, QTextEdit:focus, QPlainTextEdit:focus {
+    border: 2px solid #333333;  /* 深灰边框 */
+}
+
+QComboBox {
+    background: #ffffff;  /* 白色背景 */
+    border: 2px solid #cccccc;  /* 浅灰边框 */
+    border-radius: 8px;
+    padding: 3px;
+    min-width: 100px;
+    font-weight: 600;
+    color: #333333;  /* 深灰文字 */
+}
+
+QComboBox:hover {
+    border-color: #333333;  /* 深灰边框 */
+}
+
+/* ===== 滚动条 ===== */
+QScrollBar:vertical {
+    border: none;
+    background: #f5f5f5;  /* 浅灰背景 */
+    width: 10px;
+    margin: 0;
+}
+
+QScrollBar::handle:vertical {
+    background: #cccccc;  /* 浅灰手柄 */
+    min-height: 20px;
+    border-radius: 4px;
+}
+
+QScrollBar:horizontal {
+    border: none;
+    background: #f5f5f5;  /* 浅灰背景 */
+    height: 10px;
+    margin: 0;
+}
+
+QScrollBar::handle:horizontal {
+    background: #cccccc;  /* 浅灰手柄 */
+    min-width: 20px;
+    border-radius: 4px;
+}
+
+/* ===== 状态栏 ===== */
+QStatusBar {
+    background: #f5f5f5;  /* 浅灰背景 */
+    border-top: 2px solid #ffd700;  /* 金色边框 */
+    color: #333333;  /* 深灰文字 */
+    font-family: "Microsoft YaHei UI", "微软雅黑", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+/* ===== 标签页 ===== */
+QTabWidget::pane {
+    border: 1px solid #ffd700;  /* 金色边框 */
+    border-radius: 4px;
+    background: #ffffff;  /* 白色背景 */
+}
+
+QTabBar::tab {
+    background: #f5f5f5;  /* 浅灰背景 */
+    border: 1px solid #cccccc;  /* 浅灰边框 */
+    border-bottom: none;
+    padding: 5px 12px;
+    font-weight: 600;
+    color: #333333;  /* 深灰文字 */
+}
+
+QTabBar::tab:selected {
+    background: #ffffff;  /* 白色背景 */
+    border-color: #ffd700;  /* 金色边框 */
+    color: #333333;  /* 深灰文字 */
+    font-weight: 650;
+}
+
+/* ===== 特殊强调元素 ===== */
+QLabel[important="true"] {
+    font-weight: 700;
+    color: #333333;  /* 深灰 */
+}
+
+QProgressBar {
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: 600;
+    color: #333333;
+}
+
+QProgressBar::chunk {
+    background-color: #ffd700;  /* 金色进度条 */
+    border-radius: 2px;
+}
+
+QCheckBox::indicator:checked, 
+QRadioButton::indicator:checked {
+    background-color: #ffd700;  /* 金色选中 */
+}
+
+/* ===== 表格系统 ===== */
+QTableView {
+    background: #f5f5f5;  /* 浅灰背景 */
+    gridline-color: #cccccc;  /* 浅灰网格线 */
+    font-weight: 500;
+    color: #333333;  /* 深灰文字 */
+}
+
+QHeaderView::section {
+    background-color: #ffffff;  /* 白色背景 */
+    padding: 5px;
+    border: 1px solid #cccccc;  /* 浅灰边框 */
+    font-weight: 650;
+    color: #333333;  /* 深灰文字 */
+}
+
+/* ===== 对话框和消息框 ===== */
+QDialog {
+    background: #f5f5f5;  /* 浅灰背景 */
+    border: 1px solid #cccccc;  /* 浅灰边框 */
+    border-radius: 8px;
+}
+
+QMessageBox {
+    background: #f5f5f5;  /* 浅灰背景 */
+    border: 1px solid #cccccc;  /* 浅灰边框 */
+    border-radius: 8px;
+}
+
+QMessageBox QLabel {
+    color: #333333;  /* 深灰文字 */
+}
+
+QMessageBox QPushButton {
+    background: #ffffff;  /* 白色背景 */
+    border: 2px solid #cccccc;  /* 浅灰边框 */
+    border-radius: 8px;
+    padding: 6px 12px;
+    color: #333333;  /* 深灰文字 */
+    font-family: "Microsoft YaHei UI", "微软雅黑", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+QMessageBox QPushButton:hover {
+    background: #e0e0e0;  /* 悬停浅灰 */
+    color: #333333;  /* 深灰 */
+    font-weight: 650;
+}
+
+QMessageBox QPushButton:pressed {
+    background: #cccccc;  /* 按压浅灰 */
+    color: #333333;
+    font-weight: 700;
+}
+
+/* ===== 滑块和复选框 ===== */
+QSlider::groove:horizontal {
+    background: #cccccc;  /* 浅灰背景 */
+    height: 4px;
+    border-radius: 2px;
+}
+
+QSlider::handle:horizontal {
+    background: #ffd700;  /* 金色手柄 */
+    width: 12px;
+    height: 12px;
+    margin: -4px 0;
+    border-radius: 6px;
+}
+
+QSlider::groove:vertical {
+    background: #cccccc;  /* 浅灰背景 */
+    width: 4px;
+    border-radius: 2px;
+}
+
+QSlider::handle:vertical {
+    background: #ffd700;  /* 金色手柄 */
+    width: 12px;
+    height: 12px;
+    margin: 0 -4px;
+    border-radius: 6px;
+}
+
+QCheckBox {
+    font-weight: 600;
+    color: #333333;  /* 深灰文字 */
+}
+
+QCheckBox::indicator {
+    width: 16px;
+    height: 16px;
+    border: 1px solid #cccccc;  /* 浅灰边框 */
+    background: #ffffff;  /* 白色背景 */
+}
+
+QCheckBox::indicator:checked {
+    background-color: #ffd700;  /* 金色选中 */
+}
+
+QRadioButton {
+    font-weight: 600;
+    color: #333333;  /* 深灰文字 */
+}
+
+QRadioButton::indicator {
+    width: 16px;
+    height: 16px;
+    border: 1px solid #cccccc;  /* 浅灰边框 */
+    background: #ffffff;  /* 白色背景 */
+}
+
+QRadioButton::indicator:checked {
+    background-color: #ffd700;  /* 金色选中 */
+}
+
+/* ===== 组合框和列表框 ===== */
+QComboBox {
+    background: #ffffff;  /* 白色背景 */
+    border: 2px solid #cccccc;  /* 浅灰边框 */
+    border-radius: 8px;
+    padding: 3px;
+    min-width: 100px;
+    font-weight: 600;
+    color: #333333;  /* 深灰文字 */
+}
+
+QComboBox:hover {
+    border-color: #333333;  /* 深灰边框 */
+}
+
+QComboBox QAbstractItemView {
+    background: #ffffff;  /* 白色背景 */
+    border: 1px solid #cccccc;  /* 浅灰边框 */
+    border-radius: 8px;
+    font-weight: 600;
+    color: #333333;  /* 深灰文字 */
+}
+
+QListWidget {
+    background: #f5f5f5;  /* 浅灰背景 */
+    border: 1px solid #cccccc;  /* 浅灰边框 */
+    border-radius: 8px;
+    font-weight: 500;
+    color: #333333;  /* 深灰文字 */
+}
+
+QListWidget::item {
+    padding: 5px;
+    border-bottom: 1px solid #cccccc;  /* 浅灰分隔线 */
+}
+
+QListWidget::item:selected {
+    background: #e0e0e0;  /* 悬停浅灰 */
+    color: #333333;  /* 深灰 */
+    font-weight: 600;
+}
+
+/* ===== QLabel 样式 ===== */
+QLabel {
+    font-family: "Microsoft YaHei UI", "微软雅黑", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: #333333;  /* 深灰文字 */
+}
+
+/* ===== QTimeEdit 样式 ===== */
+QTimeEdit {
+    background: white;
+    border: 2px solid #cccccc;  /* 浅灰边框 */
+    border-radius: 8px;
+    padding: 5px;
+    font-family: "Microsoft YaHei UI", "微软雅黑", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: #333333;  /* 深灰文字 */
+}
+
+QTimeEdit::up-button {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 16px;
+    border-left-width: 1px;
+    border-left-color: #cccccc;
+    border-left-style: solid;
+}
+
+QTimeEdit::down-button {
+    subcontrol-origin: padding;
+    subcontrol-position: bottom right;
+    width: 16px;
+    border-left-width: 1px;
+    border-left-color: #cccccc;
+    border-left-style: solid;
+}
+
+QLabel#mapTimeLabel {
+    /* 字体设置 */
+    font: bold 18px "Consolas"; /* 使用系统自带等宽字体 */
+
+    /* 霓虹灯文字效果 */
+    color: #ffd700; /* 金色 */
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.8),
+                 0 0 20px rgba(255, 215, 0, 0.6),
+                 0 0 30px rgba(255, 215, 0, 0.4);
+
+    /* 未来感背景 */
+    background: qradialgradient(cx:0.5, cy:0.5, radius: 1,
+        stop:0 rgba(240, 240, 240, 200),
+        stop:1 rgba(220, 220, 220, 200));
+
+    /* 边框效果 */
+    border: 2px solid #ffd700; /* 金色 */
+    border-radius: 8px;
+    padding: 6px 12px;
+
+    /* 动态光影 */
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.5),
+                inset 0 0 10px rgba(255, 215, 0, 0.3);
+}
+
+   

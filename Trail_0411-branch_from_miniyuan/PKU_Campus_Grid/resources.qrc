@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>assets/campus.svg</file>
+        <file>icon/cancel.png</file>
+        <file>icon/login.png</file>
+        <file>icon/register.png</file>
+        <file>icon/search_click.png</file>
+        <file>icon/search_hover.png</file>
+        <file>icon/search_normal.png</file>
+        <file>windows.qss</file>
+        <file>C:/Users/姚远/Downloads/info.png</file>
+        <file>icon/info.png</file>
+        <file>icon/navigate.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,43 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icon/cancel.png</file>
+        <file>icon/info.png</file>
+        <file>icon/login.png</file>
+        <file>icon/navigate.png</file>
+        <file>icon/register.png</file>
+        <file>style/login_style.qss</file>
+        <file>icon/bomb.png</file>
+        <file>icon/goback.png</file>
+        <file>style/dark_style.qss</file>
+        <file>icon/theme.png</file>
+        <file>style/light_style.qss</file>
+        <file>icon/drag-icon.png</file>
+        <file>style/THU_style.qss</file>
+        <file>style/PKU_style.qss</file>
+        <file>style/button_style.qss</file>
+        <file>icon/zoom_out.png</file>
+        <file>icon/zoom_in.png</file>
+        <file>info/building_info.txt</file>
+        <file>info/connected_vertices.txt</file>
+        <file>assets/star.svg</file>
+        <file>style/blue_style.qss</file>
+        <file>assets/title.png</file>
+        <file>icon/star.png</file>
+        <file>icon/slot_machine.png</file>
+        <file>info/canteens.txt</file>
+        <file>icon/share.png</file>
+        <file>icon/study.png</file>
+        <file>icon/food.png</file>
+        <file>assets/ground_new.svg</file>
+        <file>icon/clear.png</file>
+        <file>icon/delete.png</file>
+        <file>icon/view.png</file>
+        <file>icon/down_arrow.svg</file>
+        <file>icon/up_arrow.svg</file>
+        <file>info/building_names.txt</file>
+        <file>translations/lang_en_US.qm</file>
+        <file>translations/lang_zh_CN.qm</file>
+        <file>info/building_details.txt</file>
+        <file>icon/AI.png</file>
+    </qresource>
+</RCC>

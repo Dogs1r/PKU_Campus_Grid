@@ -1,0 +1,14 @@
+QToolButton, QPushButton {
+   min-width: %1px;
+   max-width: %1px;
+   min-height: %1px;
+   max-height: %1px;
+   padding: 0px;
+   border-radius: %2px;
+   border: 1px solid #3498db;
+   background: rgba(255,255,255,0.9);
+}
+
+QToolButton:hover, QPushButton:hover {
+   background: rgba(220,240,255,0.95);
+}

@@ -1,0 +1,6 @@
+# 编译生成的临时文件
+build-*
+# Qt Creator的用户配置文件
+.qmake.stash
+.qmake.cache
+*.user
